@@ -108,5 +108,23 @@ html {
     padding: 50px 0 10px 0;
     text-align: center;
 }
-
 /* Footer Fim */
+
+/* Breakpoint */
+@media( max-width: 768px ){
+    .divisao-aside {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .secundario {
+        padding-top: 0;
+        border: none;
+        height: auto;
+    }
+
+    .secundario nav {
+        display: flex;
+        justify-content: space-around;
+    }
+}
