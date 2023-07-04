@@ -101,6 +101,12 @@ html {
 .secundario nav ul li {
     margin: 10px 0;
 }
-
-
 /* Conteúdo secundário Fim */
+
+/* Footer inicio */
+.footer {
+    padding: 50px 0 10px 0;
+    text-align: center;
+}
+
+/* Footer Fim */
