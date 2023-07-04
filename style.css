@@ -70,7 +70,37 @@ html {
 .topo-conteudo figure {
     margin: 30px 0;
 }
-
-
 /* Conteúdo Principal Fim */
 
+/*  Conteúdo secundário Inicio*/
+.divisao-aside {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.secundario {
+    position: sticky;
+    height: 88vh;
+    top: 20px;
+    padding: 20px;
+    border-left: solid 1px #6e6b6b97;
+}
+
+.secundario h2 {
+    font-size: 19px;
+}
+
+.secundario nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.secundario nav ul li {
+    margin: 10px 0;
+}
+
+
+/* Conteúdo secundário Fim */
