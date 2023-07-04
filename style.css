@@ -7,3 +7,9 @@ html {
 * {
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding: 0 15px;
+}
