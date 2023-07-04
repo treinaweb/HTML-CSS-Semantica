@@ -13,3 +13,29 @@ html {
     margin-inline: auto;
     padding: 0 15px;
 }
+
+/* Header inicio */
+.topo-header img {
+    display: block;
+    margin-inline: auto;
+    padding: 15px 0;
+}
+
+.topo-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    margin: 20px 0;
+    border: solid 2px black;
+    border-right: none;
+    border-left: none;
+    font-weight: 500;
+}
+
+.topo-menu a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header Fim */
